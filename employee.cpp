@@ -3,14 +3,11 @@
 #include<iomanip>
 using namespace std;
 
-   employee::employee()
-{
+   employee::employee(){
 	string name = "";
 	string address = "";
 	string phone = "";
-	
-
-}
+   }
    employee::employee(string name, string address, string phone, int employeeNumber, double hourlyWage, double hoursWorked){
       this->name = name;
       this->address = address;
